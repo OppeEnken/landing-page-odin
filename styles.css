@@ -1,0 +1,164 @@
+.header {
+    background-color: #1f2937;
+    height: 500px;
+}
+
+.top-menu {
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+    color: #e5e7eb;
+    justify-content: space-between;
+}
+
+.top-menu .logo {
+    margin-right: auto;
+    margin-left: 150px;
+}
+
+.links:last-of-type {
+    margin-right: 150px;
+}
+.header-main {
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.header-one {
+    font-size: large;
+    width: 300px;
+    font-weight: 700;
+    color: #f9faf8;
+}
+
+.header-main-text {
+    font-size: 48px;
+}
+
+.low-text {
+    font-size: smaller;
+    font-weight: lighter;
+}
+
+.sign-up {
+    color: #f9faf8;
+    background-color: blue;
+    margin-top: 30px;
+    width: 100px;
+    height: 35px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.hero-image {
+    width: 600px;
+    height: 200px;
+    border: 2px solid grey;
+    background-color: grey;
+}
+
+.main {
+    text-align: center;
+    height: 400px;
+}
+
+.random {
+    margin-top: 30px;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.slides {
+    margin-top: 60px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+    border: 2px solid blue;
+    border-radius: 15%;
+}
+
+.subtext {
+    text-align: center;
+    width: 150px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: #e5e7eb;
+    justify-content: center;
+}
+
+.quote-text {
+    width: 800px;
+    text-align: left;
+    font-size: 36px;
+}
+
+.quote-author {
+    width: 600px;
+    text-align: right;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.sign-up-banner {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background-color: blue;
+    border: 2px solid blue;
+    border-radius: 50px;
+    height: 150px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.msg-top {
+    color: #e5e7eb;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.msg-bot {
+    color: #e5e7eb;
+    font-size: 26px;
+}
+
+.button-bottom {
+    width: 100px;
+    height: 40px;
+    background-color: blue;
+    color: #e5e7eb;
+    border: 2px solid #e5e7eb;
+    border-radius: 15px;
+}
+
+.footer {
+    height: 100px;
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
